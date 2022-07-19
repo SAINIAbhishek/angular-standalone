@@ -1,5 +1,5 @@
 {
-  "name": "angular-standalone-components",
+  "name": "angular-standalone",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
