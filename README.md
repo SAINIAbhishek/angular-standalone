@@ -4,6 +4,7 @@ This application is to showcase the use cases of angular standalone feature.
 
 ## Topic
 - Building a First Standalone Component
+- Standalone Directive
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
 
