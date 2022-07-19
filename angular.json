@@ -20,6 +20,7 @@
             "outputPath": "dist/angular-standalone-components",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "baseHref": "/standalone/",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
