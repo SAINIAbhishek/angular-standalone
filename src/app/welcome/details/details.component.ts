@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {HighlightDirective} from "../../directives/highlight.directive";
+import {AnalyticsService} from "../../services/analytics.service";
 
 @Component({
   selector: 'app-details',
@@ -11,9 +12,13 @@ import {HighlightDirective} from "../../directives/highlight.directive";
 })
 export class DetailsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private analyticsService: AnalyticsService) { }
 
   ngOnInit(): void {
+  }
+
+  public onClick() {
+    this.analyticsService.registerClick();
   }
 
 }
