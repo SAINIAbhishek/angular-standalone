@@ -7,8 +7,7 @@ import {AnalyticsService} from "../../services/analytics.service";
   selector: 'app-details',
   standalone: true,
   imports: [CommonModule, HighlightDirective],
-  templateUrl: './details.component.html',
-  styleUrls: ['./details.component.scss']
+  templateUrl: './details.component.html'
 })
 export class DetailsComponent implements OnInit {
 

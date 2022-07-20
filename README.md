@@ -8,6 +8,7 @@ This application is to showcase the use cases of angular standalone feature.
 - Importing standalone component into another standalone component
 - Standalone Root Component
 - Providing Service at Global level 
+- Routing & Lazy loading
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
 

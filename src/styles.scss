@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+a {
+  text-decoration: none;
+  color: #b499f9;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #a382f7;
+}
