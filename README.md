@@ -1,6 +1,6 @@
 # Angular Latest Features
 
-This application is to showcase the use cases of angular latest features.
+This application is to showcase the use cases of angular latest features version wise.
 
 ## Topic
 - Building a First Standalone Component
