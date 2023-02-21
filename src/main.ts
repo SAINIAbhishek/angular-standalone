@@ -7,6 +7,7 @@ import {AppComponent} from "./app/app.component";
 
 import {AnalyticsService} from "./app/services/analytics.service";
 import {AppRoutingModule} from "./app/app-routing.module";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 if (environment.production) {
   enableProdMode();
@@ -15,6 +16,6 @@ if (environment.production) {
 bootstrapApplication(AppComponent, {
   providers: [
     AnalyticsService,
-    importProvidersFrom(AppRoutingModule)
+    importProvidersFrom(AppRoutingModule, BrowserAnimationsModule)
   ]
 }).then().catch(err => console.error(err));
