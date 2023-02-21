@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-standalone": {
+    "angular-features": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,10 +17,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-standalone",
+            "outputPath": "dist/angular-features",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "baseHref": "/standalone/",
+            "baseHref": "/features/",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-standalone:build:production"
+              "browserTarget": "angular-features:build:production"
             },
             "development": {
-              "browserTarget": "angular-standalone:build:development"
+              "browserTarget": "angular-features:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-standalone:build"
+            "browserTarget": "angular-features:build"
           }
         },
         "test": {
@@ -104,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
