@@ -2,17 +2,20 @@
 
 This application is to showcase the use cases of angular latest features version wise.
 
-## Topic
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
+
+## Angular version 15
+- Update to Angular 15
+- Angular Material Cdk integration
+- Directive Composition API
+
+## Angular version upto 14
 - Building a First Standalone Component
 - Standalone Directive
 - Importing standalone component into another standalone component
 - Standalone Root Component
 - Providing Service at Global level 
 - Routing & Lazy loading
-- Update to Angular 15
-- Angular Material Cdk integration
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
 
 ## Development server
 
